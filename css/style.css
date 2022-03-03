@@ -38,7 +38,6 @@ body{
 
 .button_option{
     display: flex;
-    
     column-gap: 0.5rem;
     background-color: var(--primary);
     padding: 0.3rem;
@@ -50,6 +49,28 @@ body{
 /*main*/
 
 .container{
-    margin: 0 auto;
-    max-width: 1440px;
+  max-width: 1960px;
+}
+
+.web-cam_boxes{
+    column-gap: 0.5rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.web-cam{
+    position: relative;
+    width: 250px;
+    height: 150px;
+}
+
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.479);
+    padding: 0.1rem;
+    font-size: 0.9rem;
 }
